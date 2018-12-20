@@ -32,7 +32,7 @@ clf = GaussianNB()
 clf.fit(features_train, labels_train)
 pred = clf.predict(features_test)
 accuracy = accuracy_score(pred, labels_test)
-return accuracy
+print(accuracy)
 
 
 
